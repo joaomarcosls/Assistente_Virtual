@@ -83,7 +83,7 @@ def validar_comando(acao, objeto):
             if acao == acaoCadastrada["nome"]:
                 if objeto in acaoCadastrada["objetos"]:
                     valido = True
-                    
+    1                
                 break
     
     return valido
